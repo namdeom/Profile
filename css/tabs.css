@@ -1,0 +1,45 @@
+/* Style the tab */
+.tablinks {
+    width:100px;
+	text-align: right;
+	float:left;
+	padding:0;
+	font-size: 13px;
+	color:#7b90b5;
+}
+
+div.ExperianceTab {
+    overflow: hidden;
+    margin-left: 100px;
+}
+
+/* Style the buttons inside the tab */
+div.ExperianceTab button {
+    background-color: inherit;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 0px 16px;
+    transition: 0.3s;
+    font-size: 15px;
+
+    background-color: rgb(216, 214, 235); /* Green */
+    color:#1b4491;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 50px 20px;
+}
+
+/* Change background color of buttons on hover */
+div.ExperianceTab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+div.ExperianceTab button.active {
+    background-color: #3a5c9b;
+    color: whitesmoke;
+    border-radius: 50px 20px;
+}
+
