@@ -1,14 +1,11 @@
 /* Style the tab */
-.tablinks {
-    width:100px;
-	text-align: right;
-	float:left;
-	padding:0;
-	font-size: 13px;
-	color:#7b90b5;
-}
 
 div.ExperianceTab {
+    overflow: hidden;
+    margin-left: 100px;
+}
+
+div.ExperianceYearTab {
     overflow: hidden;
     margin-left: 100px;
 }
@@ -20,15 +17,31 @@ div.ExperianceTab button {
     outline: none;
     cursor: pointer;
     padding: 0px 16px;
+    width: 100px;
     transition: 0.3s;
     font-size: 15px;
-
-    background-color: rgb(216, 214, 235); /* Green */
-    color:#1b4491;
+    background-color: rgb(235, 235, 245); /* Green */
+    color:#5074b8;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     border-radius: 50px 20px;
+}
+
+div.ExperianceYearTab button {
+    background-color: inherit;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 0px 16px;
+    width: 100px;
+    transition: 0.3s;
+    font-size: 9px;
+    background-color: rgb(248, 248, 250); /* Green */
+    color:#22375f;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
 }
 
 /* Change background color of buttons on hover */
@@ -38,7 +51,7 @@ div.ExperianceTab button:hover {
 
 /* Create an active/current tablink class */
 div.ExperianceTab button.active {
-    background-color: #3a5c9b;
+    background-color: #6580b3;
     color: whitesmoke;
     border-radius: 50px 20px;
 }

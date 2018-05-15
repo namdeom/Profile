@@ -157,6 +157,14 @@ a:hover {
 	margin-left:4px;
 }
 
+.entryExperiance {
+	width:720px;
+	display: block;
+	padding-top:15px;
+	clear: both;
+	margin-left:4px;
+}
+
 h1  {
 	width:300px;
 	font-size:32px;
@@ -294,7 +302,7 @@ dd {
 ul.unordered {
 	float:right;
 	width:500px;
-	margin-left:40px;
+	margin-left:20px;
 	
 }
 
@@ -328,7 +336,7 @@ ul.info li {
 	background-repeat: no-repeat;
 	padding-left:10px;
 	background-position: 0 .5em;
-	margin-top:12px;
+	margin-top:2px;
 }
 
 ul.skills {
